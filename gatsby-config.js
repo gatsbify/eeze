@@ -46,7 +46,9 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiUrl: process.env.DEPLOY_URL ? "" : `http://localhost:1337`,
+        apiUrl: process.env.DEPLOY_URL
+          ? "https://eezesubmit.netlify.app/eezeportal"
+          : `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
         contentTypes: ["company", "user"],
         //     // Possibility to login with a strapi user, when content types are not publically available (optional).

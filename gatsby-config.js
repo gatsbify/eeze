@@ -64,5 +64,11 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about/`, `/contact/*`],
+      },
+    },
   ],
 }

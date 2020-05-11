@@ -54,7 +54,6 @@ let Benefits = ({ data }) => (
           title="Do Payment"
           content="Step 4 - Check Your Inbox for payment instructions"
         />
-
         <Benefit
           title="Done!"
           content="Next - On payment confirmation, we will do the necassary magic to submit your records monthly and keep you informed of any status related notifications!"

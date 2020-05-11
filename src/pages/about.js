@@ -19,10 +19,10 @@ let StyledBackground = styled.div`
 `
 
 //let Service = ({ title, Icon = FaHome }) => (
-//<Col>
+// <Col>
 //  <Link to="">
 //    <Box>
-//      <Icon size={30} />
+//     <Icon size={30} />
 //      <h4 className="mt-3">{title}</h4>
 //    </Box>
 //  </Link>
@@ -31,7 +31,7 @@ let StyledBackground = styled.div`
 
 export default () => (
   <Layout>
-    <SEO title="UIF" />
+    <SEO title="ezeesubmit - About" />
     <Slider />
     <Container className="pt-4">
       <div className="text-center">

@@ -6,7 +6,7 @@ module.exports = {
     title: `eezesubmit`,
     description: `Corvid 19 TERS Uif - Submissions`,
     author: `Botmaster`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
+    siteUrl: `https://eezesubmit.netlify.app/`,
     phone: "hello@eezesubmit.co.za",
     fax: "Machine Decommisione!",
     address: "Bell Road, Kenmare, JHB, South Africa",
@@ -43,19 +43,19 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-source-strapi`,
-    //   options: {
-    //     apiURL: `http://localhost:1337`,
-    //     queryLimit: 1000, // Default to 100
-    //     contentTypes: ['article'],
-    //     // Possibility to login with a strapi user, when content types are not publically available (optional).
-    //     loginData: {
-    //       identifier: "",
-    //       password: "",
-    //     },
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000, // Default to 100
+        contentTypes: ["article"],
+        //     // Possibility to login with a strapi user, when content types are not publically available (optional).
+        loginData: {
+          identifier: "",
+          password: "",
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

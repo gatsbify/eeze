@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "name": "Company"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "UIFReferenceNumber": {
+      "type": "string",
+      "default": "0000000/0",
+      "required": true
+    },
+    "TradeName": {
+      "type": "string",
+      "required": true
+    },
+    "PayeNumber": {
+      "type": "string",
+      "required": true
+    },
+    "ContactNumber": {
+      "type": "string",
+      "maxLength": 13,
+      "minLength": 10,
+      "required": true
+    },
+    "LockDownDates": {
+      "type": "text",
+      "required": true
+    },
+    "PaymentMedium": {
+      "type": "enumeration",
+      "enum": [
+        "PayToEmployer",
+        "PayToEmployee",
+        "PayBargainingCouncil"
+      ]
+    },
+    "CompanyAddress": {
+      "type": "text"
+    },
+    "BankName": {
+      "type": "enumeration",
+      "enum": [
+        "Absa",
+        "Nedbank",
+        "Capitec"
+      ]
+    },
+    "BranchCode": {
+      "type": "string"
+    },
+    "AccountNumber": {
+      "type": "string"
+    },
+    "AccountType": {
+      "type": "enumeration",
+      "enum": [
+        "Transmission",
+        "Current",
+        "Cheque"
+      ]
+    }
+  }
+}

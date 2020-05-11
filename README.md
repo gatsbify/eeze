@@ -1,4 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/b48bab48-33c7-4ed8-b15f-3cc316fecc03/deploy-status)](https://app.netlify.com/sites/eezesubmit/deploys)
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -27,7 +28,7 @@ A (slightly) opinionated Gatsby Strapi boilerplate to get started fast. Stack in
 
 ## 🚀 Quick start
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b48bab48-33c7-4ed8-b15f-3cc316fecc03/deploy-status)](https://app.netlify.com/sites/eezesubmit/deploys)
+
 
 ```
 gatsby new gatsby-strapi-website https://github.com/jeremylynch/gatsby-strapi-starter

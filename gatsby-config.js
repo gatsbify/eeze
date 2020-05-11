@@ -1,17 +1,16 @@
-let facebook_pixel = ''
-let gtm = ''
+let facebook_pixel = ""
+let gtm = ""
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Bootstrap Strapi Starter`,
-    description: `Gatsby + Strapi = <3`,
-    author: `Jeremy Lynch`,
+    title: `eezesubmit`,
+    description: `Corvid 19 TERS Uif - Submissions`,
+    author: `Botmaster`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
-    phone: '12345',
-    fax: '12345',
-    address: '123 fake street',
-    email: 'contact@test.com'
-
+    phone: "hello@eezesubmit.co.za",
+    fax: "Machine Decommisione!",
+    address: "Bell Road, Kenmare, JHB, South Africa",
+    email: "hello@eezesubmit.co.za",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,23 +23,23 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-tagmanager',
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: gtm,
-        includeInDevelopment: false
-      }
+        includeInDevelopment: false,
+      },
     },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: facebook_pixel,
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './src/assets/images/gatsby-icon.png'
-      }
+        logo: "./src/assets/images/gatsby-icon.png",
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -61,9 +60,9 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-robots-txt",
     `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cache`,
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
   ],
 }

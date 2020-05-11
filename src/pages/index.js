@@ -20,7 +20,7 @@ let StyledBackground = styled.div`
 
 let Service = ({ title, Icon = FaHome }) => (
   <Col>
-    <Link to="/">
+    <Link to="">
       <Box>
         <Icon size={30} />
         <h4 className="mt-3">{title}</h4>
@@ -37,7 +37,7 @@ export default () => (
       <div className="text-center">
         <h4>Submit your UIF claims in a Flash!</h4>
         <p className="text-muted">
-          Next Generation eSubmit Service - 3 Easy Steps.
+          Next Generation eSubmit Service - 4 Easy Steps.
         </p>
       </div>
     </Container>
@@ -47,6 +47,7 @@ export default () => (
         <Service title="DWNLD " />
         <Service title="UPDATE" />
         <Service title="EMAIL" />
+        <Service title="PAY" />
       </Row>
     </Container>
     <div className="text-center py-5">

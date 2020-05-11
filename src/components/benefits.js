@@ -51,8 +51,16 @@ let Benefits = ({ data }) => (
           content="Step 3 - On completion of ALL the needed fields reply - email the Updated template back to us as an Attachment. Done!"
         />
         <Benefit
+          title="Update Template "
+          content="Step 2 - Update the newly downloaded sheet with the details from your system and SaveAS <companyname>.xls"
+        />
+        <Benefit
+          title="Do Payment"
+          content="Step 4 - Check Your Inbox for payment instructions"
+        />
+        <Benefit
           title="Done!"
-          content="Next - We will do the necassary procudures to submit your details and keep you informed of any satus related notifications!"
+          content="Next - On payment confirmation, we will do the necassary magic to submit your records monthly and keep you informed of any status related notifications!"
         />
       </Col>
       <Col md="6">

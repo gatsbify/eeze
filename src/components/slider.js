@@ -32,26 +32,26 @@ export default () => {
     }
   `)
 
-  let { title, author } = sideMetadata.site.siteMetadata
+  let { title } = sideMetadata.site.siteMetadata
   return (
     <SliderContainer>
       <Slider {...settings}>
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>By {author}</p>
+            <p>For UIF</p>
           </div>
         </div>
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>By {author}</p>
+            <p>For PAYE</p>
           </div>
         </div>
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>By {author}</p>
+            <p>For CCMA</p>
           </div>
         </div>
       </Slider>

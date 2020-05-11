@@ -8,7 +8,7 @@ module.exports = {
     author: `Botmaster`,
     siteUrl: `https://eezesubmit.netlify.app/`,
     phone: "hello@eezesubmit.co.za",
-    fax: "Machine Decommisione!",
+    fax: "",
     address: "Bell Road, Kenmare, JHB, South Africa",
     email: "hello@eezesubmit.co.za",
   },

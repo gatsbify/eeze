@@ -1,9 +1,15 @@
 [
-  {"name": "Contact", "url": "/contact"},
-  {"name": "GitHub", "url": "https://github.com/jeremylynch/gatsby-strapi-starter"},
-  {"name": "Options", "url": "", "dropdownItems": [
-    {"name": "Option 1", "url": "/test"},
-    {"name": "Option 2", "url": "/test"},
-    {"name": "Reset", "url": "/test"}
-  ]}
+  { "name": "Contact", "url": "/contact" },
+  {
+    "name": "About",
+    "url": "/about"
+  },
+  {
+    "name": "Partners",
+    "url": "/partners",
+    "dropdownItems": [
+      { "name": "BMS", "url": "http://botmaster.co.za/" },
+      { "name": "Gatsbify", "url": "https://gatsbify.io" }
+    ]
+  }
 ]

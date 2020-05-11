@@ -44,7 +44,7 @@ export default () => (
         <Col>
           <h5>Company</h5>
           <ul>
-            <FooterLink to="/">Item</FooterLink>
+            <FooterLink to="/">About</FooterLink>
           </ul>
         </Col>
         <Col>

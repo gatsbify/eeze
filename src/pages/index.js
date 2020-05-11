@@ -5,7 +5,7 @@ import Link from "../components/link"
 import Button from "../components/btn"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaGithub } from "react-icons/fa"
+import { FaArrowAltCircleDown } from "react-icons/fa"
 import Form from "../components/form"
 import Slider from "../components/slider"
 import Box from "../components/box"
@@ -54,7 +54,7 @@ export default () => (
         to="http://eezesubmit.co.za/docs/RenameToYourCompany.xlsx"
         className="btn btn-primary btn-lg"
       >
-        <FaGithub className="mr-1" />
+        <FaArrowAltCircleDown className="mr-1" />
         Get the Sheet
       </Button>
     </div>

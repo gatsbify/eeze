@@ -52,10 +52,10 @@ module.exports = {
         queryLimit: 1000, // Default to 100
         contentTypes: ["company", "user"],
         //     // Possibility to login with a strapi user, when content types are not publically available (optional).
-        loginData: {
-          identifier: "eezebot",
-          password: "33z3123!",
-        },
+        //  loginData: {
+        //    identifier: "eezebot",
+        //    password: "33z3123!",
+        //  },
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

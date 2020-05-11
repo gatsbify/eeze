@@ -51,7 +51,7 @@ export default () => (
     </Container>
     <div className="text-center py-5">
       <Button
-        to="https://github.com/jeremylynch/gatsby-strapi-starter"
+        to="http://eezesubmit.co.za/docs/RenameToYourCompany.xlsx"
         className="btn btn-primary btn-lg"
       >
         <FaGithub className="mr-1" />

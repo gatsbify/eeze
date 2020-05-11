@@ -3,13 +3,5 @@
   {
     "name": "About",
     "url": "/about"
-  },
-  {
-    "name": "Partners",
-    "url": "/partners",
-    "dropdownItems": [
-      { "name": "BMS", "url": "http://botmaster.co.za/" },
-      { "name": "Gatsbify", "url": "https://gatsbify.io" }
-    ]
   }
 ]

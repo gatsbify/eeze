@@ -31,7 +31,7 @@ let Service = ({ title, Icon = FaHome }) => (
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="UIF" />
     <Slider />
     <Container className="pt-4">
       <div className="text-center">

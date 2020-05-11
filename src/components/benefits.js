@@ -37,7 +37,7 @@ let Benefits = ({ data }) => (
     <Row className="d-flex align-items-center">
       <Col md="6">
         <div className="mb-4">
-          <h2 className="text-primary">Download Sheet</h2>
+          <h2 className="text-primary">Get the Sheet</h2>
           <p className="text-muted">
             STEP 1 - Download the Sample Sheet to your machine.
           </p>
@@ -51,13 +51,10 @@ let Benefits = ({ data }) => (
           content="Step 3 - On completion of ALL the needed fields reply - email the Updated template back to us as an Attachment. Done!"
         />
         <Benefit
-          title="Update Template "
-          content="Step 2 - Update the newly downloaded sheet with the details from your system and SaveAS <companyname>.xls"
-        />
-        <Benefit
           title="Do Payment"
           content="Step 4 - Check Your Inbox for payment instructions"
         />
+
         <Benefit
           title="Done!"
           content="Next - On payment confirmation, we will do the necassary magic to submit your records monthly and keep you informed of any status related notifications!"

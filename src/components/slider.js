@@ -45,13 +45,13 @@ export default () => {
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>For PAYE</p>
+            <p>For PAYE (Coming Soon)</p>
           </div>
         </div>
         <div>
           <div className="text-center">
             <h1>{title}</h1>
-            <p>For CCMA</p>
+            <p>For CCMA (Coming Soon)</p>
           </div>
         </div>
       </Slider>

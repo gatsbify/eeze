@@ -5,7 +5,7 @@ import styled from "styled-components"
 let Button = styled.div`
   -webkit-appearance: unset !important;
   border-radius: 0.25rem;
-  background: ${props => props.theme.primary};
+  background: #c1272d;
   box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
   color: white;
   display: inline-block;
